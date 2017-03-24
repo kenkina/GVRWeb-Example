@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <script src="http://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+   <script>
+      window.addEventListener('load', onVrViewLoad)
+      function onVrViewLoad() {
+         var vrView = new VRView.Player('#vrview', {
+         image: 'img/andes_2048.jpg',
+         is_stereo: true,
+         width: '100%',
+         height: 300
+      });
+   }
+</script>
+</head>
+<body>
+   <div id="vrview"></div>
+</body>
+</html>
