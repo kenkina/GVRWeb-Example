@@ -14,12 +14,14 @@
             height: 350
          });
 
-         vrView.addHotspot('machu_picchu', {
+         vrView.on('ready', function() {
+            vrView.addHotspot('machu_picchu', {
             pitch: 0, // In degrees. Up is positive.
             yaw: 20, // In degrees. To the right is positive.
             radius: 0.5, // Radius of the circular target in meters.
             distance: 1 // Distance of target from camera in meters.
-         });
+            });
+         }
 
          vrView.on('click', function(event) {
             console.log('click', event.id);
