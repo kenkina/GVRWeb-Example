@@ -8,7 +8,7 @@ var scenes = {
     hotspots: {
       street2: {
         pitch: 100,
-        yaw: 25,
+        yaw: 0,
         radius: 0.05,
         distance: 1
       }
@@ -19,7 +19,7 @@ var scenes = {
     hotspots: {
       street1: {
         pitch: 0,
-        yaw: 100,
+        yaw: 0,
         radius: 0.05,
         distance: 1
       }
