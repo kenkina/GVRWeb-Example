@@ -29,7 +29,7 @@ var scenes = {
 
 function onLoad() {
   vrView = new VRView.Player('#vrview', {
-    image: 'img/blank.jpg',
+    image: 'img/street1.jpg',
     is_stereo: false
   });
 
