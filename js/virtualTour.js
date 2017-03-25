@@ -10,7 +10,7 @@ var scenes = {
         pitch: 0,
         yaw: 0,
         radius: 0.05,
-        distance: 3
+        distance: 1
       }
     }
   },
@@ -21,7 +21,7 @@ var scenes = {
         pitch: 0,
         yaw: 180,
         radius: 0.05,
-        distance: 3
+        distance: 1
       }
     }
   }
