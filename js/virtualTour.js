@@ -35,16 +35,16 @@ function onLoad() {
     height: 350
   });
 
-  //vrView.on('ready', onVRViewReady);
+  vrView.on('ready', onVRViewReady);
   vrView.on('modechange', onModeChange);
   vrView.on('click', onHotspotClick);
   vrView.on('error', onVRViewError);
 }
 
-/*function onVRViewReady(e) {
+function onVRViewReady(e) {
   console.log('onVRViewReady');
   loadScene('street1');
-}*/
+}
 
 function onModeChange(e) {
   console.log('onModeChange', e.mode);
