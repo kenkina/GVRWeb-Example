@@ -9,7 +9,7 @@ var scenes = {
       street2: {
         pitch: 0,
         yaw: 0,
-        radius: 0.1,
+        radius: 0.05,
         distance: 3
       }
     }
@@ -20,7 +20,7 @@ var scenes = {
       street1: {
         pitch: 0,
         yaw: 180,
-        radius: 0.1,
+        radius: 0.05,
         distance: 3
       }
     }
