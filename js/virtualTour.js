@@ -4,7 +4,7 @@ var vrView;
 // All the scenes for the experience
 var scenes = {
   street1: {
-    image: 'img/street1.jpg',
+    image: 'img/street1-iloveimg-resized.jpg',
     hotspots: {
       street2: {
         pitch: 0,
@@ -15,7 +15,7 @@ var scenes = {
     }
   },
   street2: {
-    image: 'img/street2.jpg',
+    image: 'img/street2-iloveimg-resized.jpg',
     hotspots: {
       street1: {
         pitch: 0,
@@ -29,7 +29,7 @@ var scenes = {
 
 function onLoad() {
   vrView = new VRView.Player('#vrview', {
-    image: 'img/street1.jpg',
+    image: 'img/street1-iloveimg-resized.jpg',
     is_stereo: false,
     width: '100%',
     height: 350
