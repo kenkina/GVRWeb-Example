@@ -7,8 +7,8 @@ var scenes = {
     image: 'img/street1-iloveimg-resized.jpg',
     hotspots: {
       street2: {
-        pitch: 100,
-        yaw: 0,
+        pitch: 0,
+        yaw: 360,
         radius: 0.05,
         distance: 1
       }
