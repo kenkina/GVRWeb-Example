@@ -30,8 +30,7 @@ var scenes = {
 function onLoad() {
   vrView = new VRView.Player('#vrview', {
     image: 'img/blank.jpg',
-    is_stereo: false,
-    is_autopan_off: true
+    is_stereo: false
   });
 
   vrView.on('ready', onVRViewReady);
@@ -62,9 +61,7 @@ function loadScene(id) {
   // Set the image
   vrView.setContent({
     image: scenes[id].image,
-    preview: scenes[id].preview,
-    is_stereo: false,
-    is_autopan_off: true
+    is_stereo: false
   });
 
   // Add all the hotspots for the scene
