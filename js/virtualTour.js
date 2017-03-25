@@ -8,7 +8,7 @@ var scenes = {
     hotspots: {
       street2: {
         pitch: 0,
-        yaw: 150,
+        yaw: 0,
         radius: 0.05,
         distance: 1
       }
@@ -19,7 +19,7 @@ var scenes = {
     hotspots: {
       street1: {
         pitch: 0,
-        yaw: 110,
+        yaw: 180,
         radius: 0.05,
         distance: 1
       }
@@ -35,16 +35,16 @@ function onLoad() {
     height: 350
   });
 
-  vrView.on('ready', onVRViewReady);
+  //vrView.on('ready', onVRViewReady);
   vrView.on('modechange', onModeChange);
   vrView.on('click', onHotspotClick);
   vrView.on('error', onVRViewError);
 }
 
-function onVRViewReady(e) {
+/*function onVRViewReady(e) {
   console.log('onVRViewReady');
   loadScene('street1');
-}
+}*/
 
 function onModeChange(e) {
   console.log('onModeChange', e.mode);
