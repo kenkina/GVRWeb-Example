@@ -1,6 +1,8 @@
 
 var vrView;
 
+var cont = 0;
+
 // All the scenes for the experience
 var scenes = {
   street1: {
@@ -47,7 +49,6 @@ function onVRViewReady(e) {
 }
 
 function onModeChange(e) {
-  alert("onModeChange");
   console.log('onModeChange', e.mode);
 }
 
@@ -55,8 +56,11 @@ function onHotspotClick(e) {
   console.log('onHotspotClick', e.id);
   alert(e.id);
   if (e.id) {
-    alert(e.id);
-    loadScene(e.id);
+     cont++;
+     if(cont==5){
+      cont=0;
+      loadScene(e.id);
+   }
   }
 }
 
