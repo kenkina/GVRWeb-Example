@@ -47,12 +47,15 @@ function onVRViewReady(e) {
 }
 
 function onModeChange(e) {
+  alert("onModeChange");
   console.log('onModeChange', e.mode);
 }
 
 function onHotspotClick(e) {
   console.log('onHotspotClick', e.id);
+  alert(e.id);
   if (e.id) {
+    alert(e.id);
     loadScene(e.id);
   }
 }
