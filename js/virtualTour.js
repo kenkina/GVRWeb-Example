@@ -54,7 +54,7 @@ function onModeChange(e) {
 
 function onHotspotClick(e) {
   console.log('onHotspotClick', e.id);
-  alert(e.id);
+  
   if (e.id) {
      cont++;
      if(cont==5){
